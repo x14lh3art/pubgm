@@ -17,7 +17,7 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), o
 
 driver.get("https://v1discord.blogspot.com/")
 print("Doing..")
-driver.find_element_by_link_text("FIrst Post").click()
+driver.find_element_by_link_text("First Post").click()
 time.sleep(5)
 driver.find_element_by_link_text("channel").click()
 print("Triggering...")
